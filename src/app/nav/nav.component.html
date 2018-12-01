@@ -1,0 +1,23 @@
+<mat-toolbar class="nav">
+  <mat-toolbar-row>
+    <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" color="blueviolet;">
+      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #drawer mode="side" closed role="navigation">
+    <mat-nav-list>
+      <a mat-list-item routerLink='/'>Novo Embarque</a>
+      <a mat-list-item routerLink='/profile'>Saldo</a>
+      <a mat-list-item routerLink=''>Recarga</a>
+      <a mat-list-item routerLink=''>Historico</a> 
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+    
+  </mat-sidenav-content>
+</mat-sidenav-container>

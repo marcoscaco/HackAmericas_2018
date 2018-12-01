@@ -1,0 +1,9 @@
+.qr{
+    text-align: center;
+}
+
+.saldo{
+    background-color: rgb(32, 255, 62);
+    border-radius: 22px;
+    color: white;
+}

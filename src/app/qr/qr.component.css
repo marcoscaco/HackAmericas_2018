@@ -1,0 +1,16 @@
+.qr{
+    text-align: center;
+}
+.frame{
+    
+}
+.saldo{
+    background-color: rgba(114, 80, 241, 1);
+    border-radius: 22px;
+    color: white;
+}
+/* css para a demostraçao no sistema final a mudança será feita junta a validaçao */
+.worked{
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
